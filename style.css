@@ -1,10 +1,12 @@
 body{
     background: grey;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 .photo{
     border: 1px solid black;
-    border-radius: 50px;
+    border-radius: 40%;
 }
 #title, .subtitle, .post_title{
     color: black;
@@ -34,9 +36,14 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 .post_image{
     margin-bottom: 15px;
+    max-width: 900px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
 }
 .contacts_list{
     list-style-type: none;
